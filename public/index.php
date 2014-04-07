@@ -20,6 +20,7 @@ defined('ROOT_DIR')
 
 // Ensure library/ is on include_path
 set_include_path(implode(PATH_SEPARATOR, array(
+    APPLICATION_PATH . '/../vendor/zendframework/zendframework1/library',
     realpath(APPLICATION_PATH . '/../library'),
     get_include_path(),
 )));

@@ -1,5 +1,5 @@
 {
-    "name": "desnetubu/setucocms",
+    "name": "desetubu/setucocms",
     "authors": [],
     "require": {
         "zendframework/zendframework1": "1.12.*"
